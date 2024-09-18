@@ -1,6 +1,3 @@
-import sys
-input = sys.stdin.readline
-
 n=int(input())
 dp0=[0]*(n+1)
 dp1=[0]*(n+1)
