@@ -1,9 +1,5 @@
 n=int(input())
-num=1
-if n ==1:
-    print(1)
-else:
-    while n> num:
-        num*=2
-    num//=2
-    print(2*(n-num))
+num=0
+while n>2**num:
+    num+=1
+print(int((n-2**(num-1))*2))
